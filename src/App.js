@@ -6,17 +6,21 @@ import {FirstComponent as FC, SecondComponent} from './components/MyComponent';
 import MyComponent from './components/MyComponent';
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
+import Employee from './components/Employee';
 //use props to pass things
 
 
 
 function App() {
 
-  const student = {
-    firstName : "Soupy",
-    lastName : "Hilrow",
-    email : "this@email.com"
-  }
+  // const student = {
+  //   firstName : "Soupy",
+  //   lastName : "Johnson",
+  //   email : "this@tmail.com"
+  // }
+
+  //create an array
+  const skills = ['HTML','CSS','JavaScript'];
 
   return (
     <div className="App">
@@ -29,16 +33,18 @@ function App() {
         <SecondComponent/>
         <MyComponent/> */}
         {/* <HelloWorld />  */}
-        <Student
-          cats = {student}
-          />
+        {/* <Student
+          data = {skills}
+          /> */}
 
           {/* <Student
           firstName = "Hilthrow"
           lastName = "Bolson"
           email = "meme@email.com"
-          />
-         */}
+          /> */}
+
+          <Employee/>
+        
        
         
         
