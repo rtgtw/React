@@ -7,6 +7,7 @@ import MyComponent from './components/MyComponent';
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
 import Employee from './components/Employee';
+import User from './components/User';
 //use props to pass things
 
 
@@ -43,7 +44,8 @@ function App() {
           email = "meme@email.com"
           /> */}
 
-          <Employee/>
+          {/* <Employee/> */}
+          <User/>
         
        
         
