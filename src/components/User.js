@@ -16,7 +16,7 @@ const User = () => {
     // setLastName('Burry')
     setUser({
        firstName : "first",
-       lastName : "last"
+       lastName : "heyyyy"
     })
    }
    return (
